@@ -1,0 +1,523 @@
+2022-09-09 10:48:42,542 - INFO -Watching for file changes with StatReloader
+2022-09-09 10:48:45,405 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:48:46,288 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:49:20,995 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:49:21,815 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:50:45,778 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:50:51,627 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:50:52,734 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:51:05,467 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:51:06,491 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:51:07,387 - ERROR -Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field Restaurant.name.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 1030, in execute
+    result = exe_context.execute_operation(operation, root_value)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 353, in execute_operation
+    return (
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 612, in complete_value
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 650, in complete_value
+    return self.complete_object_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 927, in complete_object_value
+    return self.execute_fields(return_type, result, path, sub_field_nodes)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 431, in execute_fields
+    result = self.execute_field(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 558, in execute_field
+    self.handle_field_error(error, return_type)
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 569, in handle_field_error
+    raise error
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 540, in execute_field
+    completed = self.complete_value(
+  File "C:\Users\antho\Documents\Code\Env\GQLIntro\lib\site-packages\graphql\execution\execute.py", line 620, in complete_value
+    raise TypeError(
+graphql.error.graphql_error.GraphQLError: Cannot return null for non-nullable field Restaurant.name.
+
+GraphQL request:3:5
+2 |   restaurant {
+3 |     name
+  |     ^
+4 |     chef {
+2022-09-09 10:51:10,281 - INFO -Watching for file changes with StatReloader
+2022-09-09 10:51:41,320 - INFO -Watching for file changes with StatReloader

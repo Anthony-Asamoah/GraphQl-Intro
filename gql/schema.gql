@@ -1,0 +1,25 @@
+type Restaurant {
+    id: ID
+    name: String!
+    address: String!
+    chef: Chef
+}
+
+type Chef {
+    id: ID
+    name: String!
+    work: Restaurant!
+    specialty: Specialty
+}
+
+type Specialty {
+    id: ID
+    name: String!
+    chef: Chef!
+}
+
+
+type Query {
+    restaurant: [Restaurant!]!
+    chef: [Chef]!
+}
